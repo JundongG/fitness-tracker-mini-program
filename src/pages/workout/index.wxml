@@ -1,0 +1,14 @@
+<view class="page">
+  <view class="section">
+    <text class="title">记录本次训练</text>
+    <input placeholder="输入动作名称 (如 卧推)" bindinput="onExerciseInput" />
+    <button bindtap="addSet">添加一组</button>
+  </view>
+
+  <view class="section">
+    <text>已记录组数</text>
+    <!-- TODO: list sets -->
+  </view>
+
+  <button type="primary" bindtap="saveWorkout">保存本次训练</button>
+</view>
